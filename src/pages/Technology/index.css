@@ -78,7 +78,8 @@ line-height: 25px;
     height: 46rem;
     width: 50%;
     margin-left: 7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 16rem;
+    margin-top: 0;
   }
   .TechIndexContainer .section1 .contentContainer p{
     text-align: start;

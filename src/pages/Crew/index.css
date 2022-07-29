@@ -1,5 +1,7 @@
 .CrewIndexContainer {
   background-image: url("../../assets/shared/background-crew-mobile.jpg");
+  max-width: 100vw;
+  overflow: hidden;
 }
 .CrewIndexContainer .titlesContainer {
   margin-top: 2rem;
@@ -62,15 +64,19 @@
   .CrewIndexContainer .subH2 {
     opacity: 0.5;
     margin-top: 2.5rem;
+    font-size: 2rem;
     order: 2;
   }
   .CrewIndexContainer h4 {
     order: 3;
+    font-size: 4rem;
   }
   .CrewIndexContainer .content {
-    width: 50%;
-    font-size: 1.8rem;
+    width: 68%;
+    font-size: 2.3rem;
     order: 4;
+    margin-bottom: 5rem;
+    line-height: 3.5rem;
   }
 }
 
@@ -86,7 +92,7 @@
   }
   .CrewIndexContainer .titlesContainer {
     margin-left: 0;
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
   .CrewIndexContainer main {
     display: flex;
@@ -100,7 +106,7 @@
 
   .CrewIndexContainer .subH2 {
 font-size: 3rem;
-margin-top: 20rem;
+margin-top: 5rem;
   }
   .CrewIndexContainer h4 {
 font-size: 6rem;

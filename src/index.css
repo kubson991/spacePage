@@ -9,12 +9,16 @@ html{
   font-size: 62.5%;
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--White);  
+  overflow: hidden;
 }
 *{
   box-sizing: border-box;
   margin: 0;
 }
 
+body{
+  overflow: hidden;
+}
 
 .Container{
   background-position: center;

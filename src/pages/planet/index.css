@@ -140,7 +140,7 @@
     flex-direction: row;
   }
   .destinationContainer main img {
-    height: 75rem;
+    height: 62rem;
     margin-top: 10rem;
 
   }
@@ -164,7 +164,7 @@
     font-weight: 400;
   }
   .destinationContainer main .section2 .content  {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     width: 60%;
     line-height: 3.8rem;
     padding-bottom: 9rem;
@@ -183,7 +183,7 @@
   }
   .destinationContainer main .section2 .dataDestination .subH1  {
     flex-direction: row;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 400;
     margin-top: 2rem;
   }
