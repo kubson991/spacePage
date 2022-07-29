@@ -1,0 +1,194 @@
+.destinationContainer {
+  background-image: url("../../assets/shared/background-destination-mobile.jpg");
+  overflow: hidden;
+}
+.destinationContainer .section1,.destinationContainer .section2{
+  width: 100%;
+}
+.destinationContainer h3 {
+  margin-top: 2rem;
+}
+.destinationContainer .section1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.destinationContainer .section2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.destinationContainer .dataDestination{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.destinationContainer .dataDestination article{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+
+}
+.destinationContainer .dataDestination article .subH2{
+    margin: 1rem 0;
+    margin-top: 2rem;
+
+}
+
+.titlesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.titlesContainer h5 {
+  color: white;
+  opacity: 0.9;
+}
+.numberh5 {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.668);
+}
+.destinationContainer main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+.destinationContainer main img {
+  height: 20rem;
+  margin-top: 2rem;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-duration: 420s;
+  animation-timing-function: linear;
+}
+.destinationContainer main .subH1 {
+  color: var(--Violet);
+}
+
+.destinationContainer main .content {
+  width: 78%;
+  color: var(--Violet);
+  text-align: center;
+  line-height: 2.5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px var(--Violet) solid;
+}
+.destinationContainer main .subH1 {
+  width: 78%;
+  color: white;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.destinationContainer main .subH2 {
+  color: var(--Violet);
+  text-align: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 550px ) and (max-width:1199px) {
+  .destinationContainer {
+    background-image: url("../../assets/shared/background-destination-tablet.jpg");
+  }
+  .destinationContainer .titlesContainer {
+    margin-top: 3rem;
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+  }
+  .destinationContainer .titlesContainer h5 {
+    font-size: 1.8rem;
+  }
+  .destinationContainer .content {
+    width: 50%;
+    font-size: 1.8rem;
+  }
+  .destinationContainer main img {
+    height: 25rem;
+    margin-bottom: 3rem;
+  }
+  .destinationContainer h3 {
+    margin-top: 2rem;
+  }
+  .destinationContainer .dataDestination{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .destinationContainer {
+    background-image: url("../../assets/shared/background-destination-desktop.jpg") !important;
+  }
+  .destinationContainer main{
+    flex-direction: row;
+  }
+  .destinationContainer main .titlesContainer{
+    flex-direction: row;
+  }
+  .destinationContainer main img {
+    height: 75rem;
+    margin-top: 10rem;
+
+  }
+  .titlesContainer h5 {
+    font-size: 2.8rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+  }
+  main .titlesContainer .numberh5 {
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+  }
+  .destinationContainer main .section2  {
+    align-items: flex-start;
+  }
+  .destinationContainer main .content  {
+    text-align: start;
+  }
+  .destinationContainer main h3  {
+    font-size: 15rem;
+    font-weight: 400;
+  }
+  .destinationContainer main .section2 .content  {
+    font-size: 3.5rem;
+    width: 60%;
+    line-height: 3.8rem;
+    padding-bottom: 9rem;
+    margin-top: 2.5rem;
+  }
+  .destinationContainer main .section2 .dataDestination  {
+    flex-direction: row;
+    width: 60%;
+  }
+  .destinationContainer main .section2 .dataDestination  article{
+    align-items: flex-start;
+  }
+  .destinationContainer main .section2 .dataDestination  p{
+    text-align: start;
+    
+  }
+  .destinationContainer main .section2 .dataDestination .subH1  {
+    flex-direction: row;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  .destinationContainer main .section2 .dataDestination .subH2  {
+    flex-direction: row;
+    font-size: 2rem;
+  }
+}

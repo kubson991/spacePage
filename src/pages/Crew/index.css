@@ -1,0 +1,121 @@
+.CrewIndexContainer {
+  background-image: url("../../assets/shared/background-crew-mobile.jpg");
+}
+.CrewIndexContainer .titlesContainer {
+  margin-top: 2rem;
+}
+.CrewIndexContainer main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 92vh;
+}
+
+.CrewIndexContainer img {
+  height: 25rem;
+  width: 90vw;
+  position: relative;
+  border-bottom: solid 1px #383b4b;
+  object-fit: contain;
+  margin: 3rem;
+  z-index: 1;
+}
+
+.CrewIndexContainer .subH2 {
+  opacity: 0.5;
+  margin-top: 2.5rem;
+}
+
+.CrewIndexContainer h4 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.CrewIndexContainer .content {
+  width: 85%;
+  text-align: center;
+  color: var(--Violet);
+  line-height: 25px;
+}
+
+@media screen and (min-width: 550px) {
+  .destinationContainer {
+    background-image: url("../../assets/shared/background-destination-tablet.jpg");
+  }
+  .CrewIndexContainer .titlesContainer {
+    margin-top: 3rem;
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    order: 1;
+  }
+  .CrewIndexContainer .titlesContainer h5 {
+    font-size: 1.8rem;
+  }
+  .CrewIndexContainer img {
+    order: 6;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .CrewIndexContainer .subH2 {
+    opacity: 0.5;
+    margin-top: 2.5rem;
+    order: 2;
+  }
+  .CrewIndexContainer h4 {
+    order: 3;
+  }
+  .CrewIndexContainer .content {
+    width: 50%;
+    font-size: 1.8rem;
+    order: 4;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .CrewIndexContainer {
+    background-image: url("../../assets/shared/background-crew-desktop.jpg");
+  }
+
+  .CrewIndexContainer .titlesContainer h5 {
+    font-size: 2.8rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+  }
+  .CrewIndexContainer .titlesContainer {
+    margin-left: 0;
+    margin-top: 15rem;
+  }
+  .CrewIndexContainer main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 92vh;
+    width: 50%;
+    margin-left: 30rem;
+  }
+
+  .CrewIndexContainer .subH2 {
+font-size: 3rem;
+margin-top: 20rem;
+  }
+  .CrewIndexContainer h4 {
+font-size: 6rem;
+font-weight: 400;
+letter-spacing: 1rem;
+margin-top: 2rem;
+  }
+  .CrewIndexContainer .content {
+    font-size: 3rem;
+    text-align: start;
+    line-height: 4.2rem;
+    margin-top: 3rem;
+  }
+  .CrewIndexContainer img {
+    height: 80rem;
+    left: 50rem;
+  }
+}

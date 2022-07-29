@@ -1,0 +1,56 @@
+.GlobalNavBarContainer{
+    position: absolute;
+    top: 0;
+    width:100vw ;
+    height: 100vh;
+    z-index: 100;
+}
+.GlobalNavBarContainer .outsite{
+    height: 100%;
+    width: 38%;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.GlobalNavBarContainer .GlobalNavBar{
+    position: absolute;
+    width: 62%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(72, 65, 65, 0.376);
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+.GlobalNavBar ul{
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+
+}
+.GlobalNavBar ul span{
+    font-weight: 700;
+
+}
+.GlobalNavBar ul a{
+    padding: 3rem;
+
+}
+
+.GlobalNavBar ul li{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3rem;
+
+}
+.GlobalNavBar ul li:hover{
+background-color:rgba(72, 65, 65, 0.126) ;
+
+}
+
+.GlobalNavBarContainer .GlobalNavBar a{
+    color: white;
+    text-decoration: none;
+}
+

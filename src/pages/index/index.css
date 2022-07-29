@@ -1,0 +1,119 @@
+.IndexContainer {
+  background-image: url("../../assets/home/background-home-mobile.jpg");
+}
+.IndexContainer .indexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 90vh;
+}
+.IndexContainer .indexContainer h1{
+    margin:4rem 0;
+}
+
+.IndexContainer .indexContainer > div > p {
+  text-align: center;
+  width: 83%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding-bottom: 6rem;
+  color: var(--Violet);
+}
+
+.IndexContainer .indexContainer > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PrincipalButton {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.PrincipalButton:hover {
+  box-shadow: 0px 0px 1px 4rem rgba(255, 255, 255, 0.145);
+}
+
+.PrincipalButton p {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: var(--Dark);
+  font-size: 2rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.15rem;
+}
+
+@media (min-width: 501px) {
+  .IndexContainer {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+  }
+  .PrincipalButton {
+    width: 20rem;
+    height: 20rem;
+  }
+  .PrincipalButton:hover {
+    box-shadow: 0px 0px 1px 6rem rgba(255, 255, 255, 0.145);
+  }
+
+  .IndexContainer .indexContainer{
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .IndexContainer {
+    background-image: url("../../assets/home/background-home-desktop.jpg");
+  }
+  .IndexContainer .indexContainer {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 90vh;
+  }
+  .IndexContainer .indexContainer h1{
+    letter-spacing: 2rem;
+    font-size: 19rem;
+  }
+  .IndexContainer .indexContainer h5{
+    letter-spacing: 0.8rem;
+  }
+  .IndexContainer .indexContainer>div {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .PrincipalButton {
+    margin-top: 7rem;
+    margin-right: 7rem;
+    width: 35rem;
+    height: 35rem;
+  }
+  .PrincipalButton p{
+        font-size: 3.1rem;
+        letter-spacing:0.6rem
+  }
+  .PrincipalButton:hover {
+    box-shadow: 0px 0px 1px 6rem rgba(255, 255, 255, 0.145);
+  }
+
+  .IndexContainer .indexContainer> div > p{
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    color: var(--Violet);
+    width: 63rem;
+    text-align: justify;
+    font-size: 2.8rem;
+    line-height: 3.9rem;
+  }
+}

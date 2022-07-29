@@ -1,0 +1,79 @@
+.GlobalNavBar .selected:after{
+  display: flex;
+  content: "";
+  background-color: white;
+  position: absolute;
+  height: 0.3rem;
+  width: 50%;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+
+
+.NavBarContainer {
+  width: 50%;
+  height: 100%;
+}
+
+.NavBarContainer .GlobalNavBar {
+  width: 100%;
+  background-color: rgba(72, 65, 65, 0.376);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.NavBarContainer .GlobalNavBar div {
+  width: 22%; 
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.NavBarContainer .GlobalNavBar div:hover {
+  background-color:rgba(72, 65, 65, 0.126) ;
+}
+
+
+.NavBarContainer .GlobalNavBar a{
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width:750px) {
+  .NavBarContainer .GlobalNavBar a{
+    transition: all 0.4s linear;
+    font-size: 1.3rem;
+  }
+  .NavBarContainer .GlobalNavBar a:hover{
+    color: white;
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width:1400px) {
+  .NavBarContainer .GlobalNavBar div a{
+    position: relative;
+    color:rgba(255, 255, 255, 0.841) ;
+    font-size: 2rem;
+  }
+  .GlobalNavBar div a:before{
+    height: 1.2em;
+    display: inline;
+    content: attr(number);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -1.5em;
+    margin: auto;
+    color: white;
+    margin-top: 0;
+  }
+
+  .GlobalNavBar .selected:after{
+    margin-right: 2rem;
+  }
+}

@@ -1,0 +1,45 @@
+header{
+    background-color: transparent;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    z-index: 90;
+  }
+  header .hamburger{
+    background-image: url('../../assets/shared/icon-hamburger.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    background-color: transparent;
+    border: unset;
+    outline: none;
+    margin-right: 2rem;
+  }
+.headerIcon{
+    background-image: url('../../assets/shared/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--White);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2rem;
+    padding: 0.2rem;
+  }
+
+  @media screen and (min-width:750px) {
+    header{
+      padding-top: 1rem;
+
+    }
+    .headerIcon{
+      margin-left: 3rem;
+    }
+}
