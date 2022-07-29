@@ -172,7 +172,7 @@
   }
   .destinationContainer main .section2 .dataDestination  {
     flex-direction: row;
-    width: 60%;
+    width: 65%;
   }
   .destinationContainer main .section2 .dataDestination  article{
     align-items: flex-start;
