@@ -1,51 +1,49 @@
-.CrewNavBar{
-    height: 4rem;
-    width: 65%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
+.CrewNavBar {
+  height: 4rem;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.CrewNavBar .circle{
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: white;
-    border-radius: 50%;
-    opacity: 0.3;
+.CrewNavBar .circle {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.3;
 }
-.CrewNavBar .circle:hover{
-    opacity: 0.2;
-    }
+.CrewNavBar .circle:hover {
+  opacity: 0.2;
+}
 
-.CrewNavBar .circle.selected{
-    opacity: 1;
+.CrewNavBar .circle.selected {
+  opacity: 1;
 }
 
 @media screen and (min-width: 550px) {
-    .CrewNavBar .circle{
-        width: 1.2rem;
-        height: 1.2rem;
-    }
-    .CrewNavBar {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        width: 20%;
-      order: 5;
-    }
+  .CrewNavBar .circle {
+    width: 1.2rem;
+    height: 1.2rem;
   }
+  .CrewNavBar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20%;
+    order: 5;
+  }
+}
 
-  @media screen and (min-width: 1400px) {
-    .CrewNavBar{
-        margin-top: 8rem;
-        justify-content: flex-start;
-        gap: 2.8rem;
-        margin-left: 2rem;
-    }
-    .CrewNavBar .circle{
-        
-        height: 2.2rem;
-        width: 2.2rem;
-    }
+@media screen and (min-width: 1400px) {
+  .CrewNavBar {
+    margin-top: 8rem;
+    justify-content: flex-start;
+    gap: 2.8rem;
+    margin-left: 2rem;
   }
-  
+  .CrewNavBar .circle {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+}

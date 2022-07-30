@@ -31,7 +31,7 @@ function Crew() {
   return (
     <div className="CrewIndexContainer Container">
       <Header></Header>
-      {/* <main>
+      <main>
         <div className="titlesContainer">
           <span className="numberh5 navText">02</span>
           <h5>MEET YOUR CREW</h5>
@@ -43,7 +43,7 @@ function Crew() {
 
         <p className="content">{memberInfo.bio}
         </p>
-      </main> */}
+      </main>
     </div>
   );
 }
